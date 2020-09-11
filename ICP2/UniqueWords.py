@@ -15,8 +15,8 @@ sqlContext = SQLContext(sc)
 
 # remove puncutation marks in the given text
 def removePunctuation(column):
-    return trim(lower(regexp_replace(column, '([^\s\w_a-zA-Z\[0-9]]|_)+', ''))).alias('sentence')
-    #return trim(lower(regexp_replace(column, '([^\s\w_]|_)+', ''))).alias('sentence')
+    return trim(lower(regexp_replace(column, '([^\d+\s\w_a-zA-Z\[0-9]]|_)+', ''))).alias('sentence')
+    #return trim(lower(regexp_replace(column, '([^\s\w_]|_)+', ''))).alias('sentence') re.sub('[!#?,.:";]', '', data)
 
 
 # no.of.words words in the given text
