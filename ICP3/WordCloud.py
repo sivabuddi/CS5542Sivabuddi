@@ -135,3 +135,10 @@ plt.imshow(wordcloud)
 #To remove the axis value :
 plt.axis("off")
 plt.show()
+
+# dic= {"a": 1, "b": 2, "c": 3}
+# keys = dic.keys()
+# values = dic.values()
+# plt.bar(range(len(dic)), list(dic.values()), align='center')
+# plt.xticks(range(len(dic)), list(dic.keys()))
+# plt.show()
