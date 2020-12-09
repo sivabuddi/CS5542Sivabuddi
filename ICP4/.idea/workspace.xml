@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4091247-1510-4a9f-82ad-2f394d42e5ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ICP7/ICP7_Iris_TestCase1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP7/ICP7_Iris_TestCase2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP7/ICP7_Iris_TestCase3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP7/ICP7_Iris_TestCase4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP7/Kmeans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP8/GPU_Enabled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP8/ICP8_New.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP8/Original.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP8/Testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP8/Testing_Encoder1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP8/Testing_Encoder2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP8/Testing_Encoder3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP8/Version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICP7/CS5542-Lecture7 K-Means-Clustering.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICP7/CS5542-Lecture7-Ref-Clustering.pptx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jTSdjkgoX0vvoz5e6DbXLzaDtH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Onehot_encoding_Up_Sampling_DeepLearning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ICP4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Onehot_encoding_Up_Sampling_DeepLearning.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Onehot_encoding_Up_Sampling_DeepLearning" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4091247-1510-4a9f-82ad-2f394d42e5ea" name="Default Changelist" comment="" />
+      <created>1603826678462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603826678462</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1830" height="278" key="GridCell.Tab.0.bottom" timestamp="1603828561658">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1603828561658" />
+    <state width="1830" height="278" key="GridCell.Tab.0.center" timestamp="1603828561658">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1603828561658" />
+    <state width="1830" height="278" key="GridCell.Tab.0.left" timestamp="1603828561657">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1603828561657" />
+    <state width="1830" height="278" key="GridCell.Tab.0.right" timestamp="1603828561658">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1603828561658" />
+  </component>
+</project>

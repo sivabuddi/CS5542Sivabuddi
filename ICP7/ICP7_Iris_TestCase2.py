@@ -12,8 +12,9 @@ dataset = pd.read_csv('Iris.csv')
 print("Original Data size=",dataset.shape)
 # print(dataset.describe())
 print(dataset.columns)
-x = dataset.iloc[:,[1,3]]
+x = dataset.iloc[:,1:5]
 y = dataset.iloc[:,-1]
+#print(x)
 # see how many samples we have of each species
 print(dataset["Species"].value_counts())
 
@@ -38,8 +39,8 @@ sns.set_context("notebook", font_scale=1.1)
 sns.set_style("ticks")
 
 # Create scatterplot of dataframe
-sns.lmplot('SepalLengthCm', # Horizontal axis
-           'PetalLengthCm', # Vertical axis
+sns.lmplot('PetalLengthCm', # Horizontal axis
+           'PetalWidthCm', # Vertical axis
            data=dataset, # Data source
            fit_reg=False, # Don't fix a regression line
            hue="Species", # Set color
@@ -50,10 +51,10 @@ sns.lmplot('SepalLengthCm', # Horizontal axis
 plt.title('Iris Dataset')
 
 # Set x-axis label
-plt.xlabel('SepalLenghtCm')
+plt.xlabel('PetalLengthCm')
 
 # Set y-axis label
-plt.ylabel('PetalLengthCm')
+plt.ylabel('PetalWidthCm')
 plt.show()
 
 
@@ -73,25 +74,32 @@ scaler.fit(x)
 X_scaled_array = scaler.fit_transform(x)
 X_scaled = pd.DataFrame(X_scaled_array, columns = x.columns)
 
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', None)
+pd.set_option('display.max_colwidth', -1)
+
 from sklearn.cluster import KMeans
-nclusters = 3 # this is the k in kmeans
+nclusters = 5 # this is the k in kmeans
 km = KMeans(n_clusters=nclusters)
 km.fit(X_scaled_array)
 pred = km.predict(X_scaled_array)
 X_scaled['clusters']=pred
 result = X_scaled['clusters'].value_counts()
 print(result)
-print(pred)
+print(X_scaled['clusters'])
 
 #6 Visualising the clusters
 plt.scatter(X_scaled_array[pred==0, 0], X_scaled_array[pred==0, 1], s=100, c='red', label ='Cluster 1')
 plt.scatter(X_scaled_array[pred==1, 0], X_scaled_array[pred==1, 1], s=100, c='blue', label ='Cluster 2')
 plt.scatter(X_scaled_array[pred==2, 0], X_scaled_array[pred==2, 1], s=100, c='green', label ='Cluster 3')
-# plt.scatter(X_scaled_array[pred==3, 0], X_scaled_array[pred==3, 1], s=100, c='black', label ='Cluster 4')
+plt.scatter(X_scaled_array[pred==3, 0], X_scaled_array[pred==3, 1], s=100, c='black', label ='Cluster 4')
+plt.scatter(X_scaled_array[pred==4, 0], X_scaled_array[pred==4, 1], s=100, c='brown', label ='Cluster 5')
+# plt.scatter(X_scaled_array[pred==5, 0], X_scaled_array[pred==5, 1], s=100, c='orange', label ='Cluster 6')
 plt.legend()
 plt.title("Predicated Clusters ")
-plt.xlabel("SepalLengthCm")
-plt.ylabel("PetalLengthCm")
+plt.xlabel("PetalLengthCm")
+plt.ylabel("PetalWidthCm")
 plt.show()
 
 
@@ -99,7 +107,7 @@ plt.show()
 # y_cluster_kmeans = km.predict(x)
 from sklearn import metrics
 score = metrics.silhouette_score(X_scaled_array, pred)
-print(score)
+print("Silhouette Score={}".format(score))
 
 
 
